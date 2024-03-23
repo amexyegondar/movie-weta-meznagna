@@ -1,0 +1,331 @@
+import avatar from '../images/Avatar.jpg'
+import batman from '../images/Batman.jpg'
+import cinema from '../images/Cinema House.jpg'
+import cirkus from '../images/Cirkus.jpg'
+import civilwar from '../images/Civil War.jpg'
+import demandafrica from '../images/Demand Africa.jpg'
+import doka from '../images/Doka.jpg'
+import fighter from '../images/Fighter.jpg'
+import fridaynirvana from '../images/FridayNirvana.jpg'
+import kabir from '../images/Kabir.jpg'
+import lebekel from '../images/Lebekel.jpg'
+import lenekalesh from '../images/Lene Kalesh.jpg'
+import melkamken from '../images/Melkam Ken.jpg'
+import sene30 from '../images/Sene30.jpg'
+import shawsshank from '../images/ShawsShank.jpg'
+import sostmaezen from '../images/Sost Maezen.jpg'
+import tewlgn from '../images/Tewlgn.jpg'
+import theamericans from '../images/The Americans.jpg'
+import vogueindia from '../images/Vogue India.jpg'
+
+import hollytrailer from '../video/US.mp4'
+import dokat from '../video/Doka.mp4'
+import mubarak from '../video/Murder Mubarak.mp4'
+
+ const Movies=[
+    {
+        id:"01",
+        title:"Avatar",
+        rating:'9',
+        likes:'897',
+        dislikes:'12',
+        comment:'567',
+        catagory:'Hollywood',
+        story:'lorem Porem torel nonem boron gonetion fuctos perfecto lorem Porem torel nonem boron onetion fuctos perfecto lorem Porem torel nonem boron gonetion fuctos perfecto.', 
+        trailer:hollytrailer,
+        poster:avatar
+        ,
+        liked:false,
+        disliked:false,
+        favorite:false,
+    },
+    {
+        id:"02",
+        title:"BatMan",
+        rating:'9',
+        likes:'675',
+        dislikes:'10',
+        comment:'569',
+        catagory:'Hollywood',
+        story:'lorem Porem torel nonem boron gonetion fuctos perfecto lorem Porem torel nonem boron onetion fuctos perfecto lorem Porem torel nonem boron gonetion fuctos perfecto.', 
+        trailer:hollytrailer,
+        poster:batman
+        ,
+        liked:false,
+        disliked:false,
+        
+        favorite:false,
+    },
+    {
+        id:"03",
+        title:"Cinema",
+        rating:'9.8',
+        likes:'847',
+        dislikes:'2',
+        comment:'567',
+        catagory:'Hollywood',
+        story:'lorem Porem torel nonem boron gonetion fuctos perfecto lorem Porem torel nonem boron onetion fuctos perfecto lorem Porem torel nonem boron gonetion fuctos perfecto.', 
+        trailer:hollytrailer,
+        poster:cinema
+        ,
+        liked:false,
+        disliked:false,
+        favorite:false,
+    },
+    {
+        id:"04",
+        title:"Cirkus",
+        rating:'7.9',
+        likes:'97',
+        dislikes:'42',
+        comment:'89',
+        catagory:'Hollywood',
+        story:'lorem Porem torel nonem boron gonetion fuctos perfecto lorem Porem torel nonem boron onetion fuctos perfecto lorem Porem torel nonem boron gonetion fuctos perfecto.', 
+        trailer:hollytrailer,
+        poster:cirkus
+        ,
+        liked:false,
+        disliked:false,
+        favorite:false,
+    },
+    {
+        id:"05",
+        title:"Civil War",
+        rating:'9.9',
+        likes:'8497',
+        dislikes:'132',
+        comment:'567',
+        catagory:'Hollywood',
+        story:'lorem Porem torel nonem boron gonetion fuctos perfecto lorem Porem torel nonem boron onetion fuctos perfecto lorem Porem torel nonem boron gonetion fuctos perfecto.', 
+        trailer:hollytrailer,
+        poster:civilwar
+        ,
+        liked:false,
+        disliked:false,
+        favorite:false,
+    },
+    {
+        id:"06",
+        title:"Demand Africa",
+        rating:'8.9',
+        likes:'1897',
+        dislikes:'412',
+        comment:'67',
+        catagory:'Hollywood',
+        story:'lorem Porem torel nonem boron gonetion fuctos perfecto lorem Porem torel nonem boron onetion fuctos perfecto lorem Porem torel nonem boron gonetion fuctos perfecto.', 
+        trailer:hollytrailer,
+        poster:demandafrica
+        ,
+        liked:false,
+        disliked:false,
+        favorite:false,
+    },
+    {
+        id:"07",
+        title:"Fighter",
+        rating:'9.2',
+        likes:'897',
+        dislikes:'12',
+        comment:'537',
+        catagory:'Hollywood',
+        story:'lorem Porem torel nonem boron gonetion fuctos perfecto lorem Porem torel nonem boron onetion fuctos perfecto lorem Porem torel nonem boron gonetion fuctos perfecto.', 
+        trailer:hollytrailer,
+        poster:fighter
+        ,
+        liked:false,
+        disliked:false,
+        favorite:false,
+    },
+    {
+        id:"08",
+        title:"The Americans",
+        rating:'5.5',
+        likes:'333',
+        dislikes:'33',
+        comment:'355',
+        catagory:'Hollywood',
+        story:'lorem Porem torel nonem boron gonetion fuctos perfecto lorem Porem torel nonem boron onetion fuctos perfecto lorem Porem torel nonem boron gonetion fuctos perfecto.', 
+        trailer:hollytrailer,
+        poster:theamericans
+        ,
+        liked:false,
+        disliked:false,
+        favorite:false,
+    },
+    {
+        id:"09",
+        title:"Doka(ዶቃ)",
+        rating:'6.9',
+        likes:'555',
+        dislikes:'65',
+        comment:'433',
+        catagory:'Ethiopia',
+        story:'lorem Porem torel nonem boron gonetion fuctos perfecto lorem Porem torel nonem boron onetion fuctos perfecto lorem Porem torel nonem boron gonetion fuctos perfecto.', 
+        trailer:dokat,
+        poster:doka,
+        liked:false,
+        disliked:false,
+        favorite:false,
+    },
+    {
+        id:"10",
+        title:"Lebekel(ለበቀል)",
+        rating:'3.9',
+        likes:'87',
+        dislikes:'2',
+        comment:'7',
+        catagory:'Ethiopia',
+        story:'lorem Porem torel nonem boron gonetion fuctos perfecto lorem Porem torel nonem boron onetion fuctos perfecto lorem Porem torel nonem boron gonetion fuctos perfecto.', 
+        trailer:dokat,
+        poster:lebekel,
+        liked:false,
+        disliked:false,
+        favorite:false,
+    },
+    {
+        id:"11",
+        title:"Lene Kalesh(ለኔ ካለሽ)",
+        rating:'9',
+        likes:'324',
+        dislikes:'44',
+        comment:'23',
+        catagory:'Ethiopia',
+        story:'lorem Porem torel nonem boron gonetion fuctos perfecto lorem Porem torel nonem boron onetion fuctos perfecto lorem Porem torel nonem boron gonetion fuctos perfecto.', 
+        trailer:dokat,
+        poster:lenekalesh
+        ,
+        liked:false,
+        disliked:false,
+        favorite:false,
+    },
+    {
+        id:"12",
+        title:"Melkam Ken(መልካም ቀን)",
+        rating:'4.9',
+        likes:'443',
+        dislikes:'4',
+        comment:'567',
+        catagory:'Ethiopia',
+        story:'lorem Porem torel nonem boron gonetion fuctos perfecto lorem Porem torel nonem boron onetion fuctos perfecto lorem Porem torel nonem boron gonetion fuctos perfecto.', 
+        trailer:dokat,
+        poster:melkamken,
+        
+        liked:false,
+        disliked:false,
+        favorite:false,
+    },
+    {
+        id:"13",
+        title:"Sene 30(ሰኔ 30)",
+        rating:'8።9',
+        likes:'234',
+        dislikes:'43',
+        comment:'23',
+        catagory:'Ethiopia',
+        story:'lorem Porem torel nonem boron gonetion fuctos perfecto lorem Porem torel nonem boron onetion fuctos perfecto lorem Porem torel nonem boron gonetion fuctos perfecto.', 
+        trailer:dokat,
+        poster:sene30
+        ,
+        liked:false,
+        disliked:false,
+        favorite:false,
+    },
+    {
+        id:"14",
+        title:"Sost maezen(3 ማእዘን)",
+        rating:'10',
+        likes:'325',
+        dislikes:'1',
+        comment:'3424',
+        catagory:'Ethiopia',
+        story:'lorem Porem torel nonem boron gonetion fuctos perfecto lorem Porem torel nonem boron onetion fuctos perfecto lorem Porem torel nonem boron gonetion fuctos perfecto.', 
+        trailer:dokat,
+        poster:sostmaezen,
+        liked:false,
+        disliked:false,
+        favorite:false,
+    },
+    {
+        id:"15",
+        title:"Tewlegn(ተውልኝ)",
+        rating:'9',
+        likes:'34324',
+        dislikes:'122',
+        comment:'343',
+        catagory:'Ethiopia',
+        story:'lorem Porem torel nonem boron gonetion fuctos perfecto lorem Porem torel nonem boron onetion fuctos perfecto lorem Porem torel nonem boron gonetion fuctos perfecto.', 
+        trailer:dokat,
+        poster:tewlgn
+        ,
+        liked:false,
+        disliked:false,
+        favorite:false,
+    },
+    {
+        id:"16",
+        title:"Friday Nirvana",
+        rating:'7',
+        likes:'8497',
+        dislikes:'142',
+        comment:'5674',
+        catagory:'Bollywood',
+        story:'lorem Porem torel nonem boron gonetion fuctos perfecto lorem Porem torel nonem boron onetion fuctos perfecto lorem Porem torel nonem boron gonetion fuctos perfecto.', 
+        trailer:mubarak,
+        poster:fridaynirvana
+        ,
+        liked:false,
+        disliked:false,
+        favorite:false,
+    },
+    {
+        id:"17",
+        title:"Kabir",
+        rating:'7.9',
+        likes:'763',
+        dislikes:'612',
+        comment:'57',
+        catagory:'Bollywood',
+        story:'lorem Porem torel nonem boron gonetion fuctos perfecto lorem Porem torel nonem boron onetion fuctos perfecto lorem Porem torel nonem boron gonetion fuctos perfecto.', 
+        trailer:mubarak,
+        poster:kabir
+        ,
+        liked:false,
+        disliked:false,
+        favorite:false,
+    },
+    {
+        id:"18",
+        title:"Shaws Shank",
+        rating:'9.9',
+        likes:'997',
+        dislikes:'142',
+        comment:'67',
+        catagory:'Bollywood',
+        story:'lorem Porem torel nonem boron gonetion fuctos perfecto lorem Porem torel nonem boron onetion fuctos perfecto lorem Porem torel nonem boron gonetion fuctos perfecto.', 
+        trailer:mubarak,
+        poster:shawsshank
+        ,
+        liked:false,
+        disliked:false,
+        favorite:false,
+    },
+    {
+        id:"19",
+        title:"Vogue India",
+        rating:'8.8',
+        likes:'8447',
+        dislikes:'1442',
+        comment:'543',
+        catagory:'Bollywood',
+        story:'lorem Porem torel nonem boron gonetion fuctos perfecto lorem Porem torel nonem boron onetion fuctos perfecto lorem Porem torel nonem boron gonetion fuctos perfecto.', 
+        trailer:mubarak,
+        poster:vogueindia
+        ,
+        liked:false,
+        disliked:false,
+        favorite:false,
+    },
+    
+]
+
+export default Movies

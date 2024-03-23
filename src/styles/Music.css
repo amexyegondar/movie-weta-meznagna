@@ -1,0 +1,60 @@
+
+h4{
+    color: white;
+    font-size: 16px;
+   
+}
+h2{
+    color: rgb(245, 193, 49);
+    font-size: 20px;
+}
+.music-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   gap: 20%;
+   width: 100%;
+   height: 10vh;
+   background-color:rgb(29, 185, 84);
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 20px;
+   border-radius: 10px;
+   
+
+
+}
+.rating{
+   
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    
+}
+.musics-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+@media only screen and (max-width:600px){
+    .music-container{
+        
+        gap: 10px;
+        width: 100%;
+       
+    }
+    h4{
+        font-size: 10px;
+    }
+    .rating{
+        display: none;
+    }
+    h2{
+        font-size: 16px;
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,22 @@
+h1{
+    color: rgb(245, 193, 49);
+}
+.toprated-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 5%;
+    gap: 3%;
+}
+@media screen and (max-width:600px){
+    h1{
+        font-size: 16px;
+        margin-top: 50px;
+    }
+    .toprated-container{
+        margin-left: 40px;
+        z-index: -1;
+    }
+}

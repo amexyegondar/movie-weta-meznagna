@@ -1,0 +1,29 @@
+.image{
+    height:300;
+    width:200;
+}
+.icon-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 5px;
+}
+.rating{
+    border: 1;
+    border-color: rgb(255, 230, 3);
+    background-color: rgb(53, 31, 4);
+    padding: 10px;
+    border-radius: 10px;
+}
+@media screen and (max-width:600px){
+   .movie-container{
+    z-index: -1;
+   }
+}
